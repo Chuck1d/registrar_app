@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap");
+
+:root {
+    --body-bg-color: orange;
+    --border-color: #e5e4e9;
+    --theme-bg-color: #fff;
+    --body-color: #1b1f31;
+    --main-color: #7a7e9d;
+    --main-light-color: #a1a4b9;
+    --title-color: #3;
+    --body-font: "Jost", sans-serif;
+    --button-bg-color: #eaeefc;
+    --button-color: #4d76fd;
+    --unselected-mail: #f1f2f7;
+    --calendar-border-color: #cbcfe0;
+    --main-container-bg: #f0f0f7;
+  }
+
+* {
+  outline: none;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--body-bg-color);
+  color: var(--body-color);
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: "Jost", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+#title {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Jost", sans-serif;
+  color: black;
+  border-color: white;
+  border-radius: 5px;
+  background-color: orange;
+}
+
+.header {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Jost", sans-serif;
+  color: darkblue;
+  border-radius: 25px;
+  background-color: orange;
+}
+
+.container {
+  width: 1000px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .card {
+  position: relative;
+  cursor: pointer;
+  border-color: white;
+  border: 5px;
+  border-radius: 15px;
+
+}
+
+.container .card .face {
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+  border-color: white;
+  border: 5px;
+  border-radius: 15px;
+
+}
+
+.container .card .face.face1 {
+  position: relative;
+  background: darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+  border-color: white;
+  border: 5px;
+}
+
+.container .card:hover .face.face1 {
+  background: gray;
+  transform: translateY(0);
+  border-color: white;
+  border: 5px;
+}
+
+.container .card .face.face1 .content {
+  opacity: 0.9;
+  transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.container .card .face.face1 .content img {
+  max-width: 100px;
+}
+
+.container .card .face.face1 .content h3 {
+  margin: 10px 0 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.container .card .face.face2 {
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2 {
+  transform: translateY(0);
+}
+
+.container .card .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+}
+
+.container .card .face.face2 .content a {
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: orange;
+  padding: 5px;
+  border: 1px solid #333;
+}
+
+.container .card .face.face2 .content a:hover {
+  background: #333;
+  color: #fff;
+}

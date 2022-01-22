@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="registrar_dashboard.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="user-profile-area">
+            <div class="task-manager">My Dashboard</div>
+            <div class="side-wrapper">
+                <div class="user-profile">
+                    <img src="https://media-exp1.licdn.com/dms/image/C4D03AQE3FtiLvQV9fw/profile-displayphoto-shrink_100_100/0/1618966869752?e=1638403200&v=beta&t=9f3Faoapji5q2lcCbm6OYJ_spRb0lITTGuQ2wrXKZwU"
+                        alt="" class="user-photo">
+                    <div class="user-name">Finance Francine</div>
+                    <div class="user-mail">FFrancine22@darden.virginia.edu</div>
+                </div>
+                <div class="user-notification">
+                    <div class="notify">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" fill="currentColor">
+                            <path
+                                d="M13.533 5.6h-.961a.894.894 0 01-.834-.57.906.906 0 01.197-.985l.675-.675a.466.466 0 000-.66l-1.32-1.32a.466.466 0 00-.66 0l-.676.677a.9.9 0 01-.994.191.906.906 0 01-.56-.837V.467A.467.467 0 007.933 0H6.067A.467.467 0 005.6.467v.961c0 .35-.199.68-.57.834a.902.902 0 01-.983-.195L3.37 1.39a.466.466 0 00-.66 0L1.39 2.71a.466.466 0 000 .66l.675.675c.25.25.343.63.193.995a.902.902 0 01-.834.56H.467A.467.467 0 000 6.067v1.866c0 .258.21.467.467.467h.961c.35 0 .683.202.834.57a.904.904 0 01-.197.984l-.675.676a.466.466 0 000 .66l1.32 1.32a.466.466 0 00.66 0l.68-.68a.894.894 0 01.994-.187.897.897 0 01.556.829v.961c0 .258.21.467.467.467h1.866c.258 0 .467-.21.467-.467v-.961c0-.35.202-.683.57-.834a.904.904 0 01.984.197l.676.675a.466.466 0 00.66 0l1.32-1.32a.466.466 0 000-.66l-.68-.68a.894.894 0 01-.187-.994.897.897 0 01.829-.556h.961c.258 0 .467-.21.467-.467V6.067a.467.467 0 00-.467-.467zM7 9.333C5.713 9.333 4.667 8.287 4.667 7S5.713 4.667 7 4.667 9.333 5.713 9.333 7 8.287 9.333 7 9.333z" />
+                        </svg>
+                    </div>
+                    <div class="notify alert">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
+                            <path
+                                d="M10.688 95.156C80.958 154.667 204.26 259.365 240.5 292.01c4.865 4.406 10.083 6.646 15.5 6.646 5.406 0 10.615-2.219 15.469-6.604 36.271-32.677 159.573-137.385 229.844-196.896 4.375-3.698 5.042-10.198 1.5-14.719C494.625 69.99 482.417 64 469.333 64H42.667c-13.083 0-25.292 5.99-33.479 16.438-3.542 4.52-2.875 11.02 1.5 14.718z" />
+                            <path
+                                d="M505.813 127.406a10.618 10.618 0 00-11.375 1.542C416.51 195.01 317.052 279.688 285.76 307.885c-17.563 15.854-41.938 15.854-59.542-.021-33.354-30.052-145.042-125-208.656-178.917a10.674 10.674 0 00-11.375-1.542A10.674 10.674 0 000 137.083v268.25C0 428.865 19.135 448 42.667 448h426.667C492.865 448 512 428.865 512 405.333v-268.25a10.66 10.66 0 00-6.187-9.677z" />
+                        </svg>
+                    </div>
+                    <div class="notify alert">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
+                            <path
+                                d="M467.812 431.851l-36.629-61.056a181.363 181.363 0 01-25.856-93.312V224c0-67.52-45.056-124.629-106.667-143.04V42.667C298.66 19.136 279.524 0 255.993 0s-42.667 19.136-42.667 42.667V80.96C151.716 99.371 106.66 156.48 106.66 224v53.483c0 32.853-8.939 65.109-25.835 93.291L44.196 431.83a10.653 10.653 0 00-.128 10.752c1.899 3.349 5.419 5.419 9.259 5.419H458.66c3.84 0 7.381-2.069 9.28-5.397 1.899-3.329 1.835-7.468-.128-10.753zM188.815 469.333C200.847 494.464 226.319 512 255.993 512s55.147-17.536 67.179-42.667H188.815z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="progress-status">27/60</div>
+                <div class="progress">
+                    <div class="progress-bar"></div>
+                </div>
+                <div class="task-status">
+                    <div class="task-stat">
+                        <div class="task-number">60 Units Required</div>
+                        <div class="task-condition"> </div>
+                        <div class="task-tasks"></div>
+                    </div>
+                    <div class="task-stat">
+                        <div class="task-number"></div>
+                        <div class="task-condition"></div>
+                        <div class="task-tasks"></div>
+                    </div>
+                    <div class="task-stat">
+                        <div class="task-number"></div>
+                        <div class="task-condition"></div>
+                        <div class="task-tasks"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="side-wrapper">
+
+                <div class="project-title">Requirements</div>
+                <div class="project-name">
+                    <div class="project-department">Finance Concentration</div>
+                    <div class="project-department">STEM Designation</div>
+                    <div class="project-department">SY Leadership Requirement</div>
+                    <div class="project-department">Business Analytics Concentration</div>
+                </div>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAw1BMVEX////lcgDkagDkaADkbQDlcADkbAD2za3///365tz0zLf21ML43sfsm1/439LqlF3ldA/87+PupWj1yKPnfBv769r31rz99+/zwJjohCzrlEfwsHz20bXmdwDqjz7jYgDpjlHyuoz43MXrllfxtoXup3PqjkX99OvzwZ3nfB3ogSnsnWHuqYDpiUD65NHpiDPxupzto3XohDXrlVDrm2bzxqzwtI3xtIHphSXzxJjuomDvrXXws5HyvqLwtYzurIPtnVL8RhBZAAAPq0lEQVR4nO2dC1ujOBfHIcmhuFNnS2/0AsVeqa1Stc464/g6+/0/1ZsToITerBqg7sP/eXa20hDya5KTkwuJppUqVapUqVKlSpUqVapUqVL5yLYu2vNhvf53rHp92BhdWHbRCVMg07Ya/b9XLqXEYAxiMWYQStyHx6eK/6Uxg87YRTQAfZ84qUFp83HeKjqhH5Lt1Dkd28+W4mSEujdts+gEv0+20zuJLqGk5PkLQQbTmsFOpttAMn0SFJ30U2RXZmCcnnspSKKvzz4j7cYDOWBXTstIMqucs3G1O036cbwIknYrZ5uPletP84WMD+2iUfaq6irhCxln52dzrKUyPsFIpmdWHRvuu5uHNxCNplM0lCRr/MH24Tjj1C8aLJajOgMjkcWoaDQhs6+0BsoCNimajstakYz4EJGuCzc4bcimhMZibsFdq847OhAfE0CRNtX8k4EN3UFk8+IA6zRzPkQkw6IAl7kAImK9GMB1hkZ0S7QIRLOXH2AxiOM8ATniNG/AupErIHfhXvMFfMo3B3V0xBt5AlZysqIpRMix518l2Tf0exD13Bw4yy0CkCM2cxqiMgfZOtuHZSzzIZzmbmU2orm4qE7m3YnDAshhDM6/Lg6Qdxdvs6+K46IqYSiS+biGU0BLKCvzcmp+YtpFEeIqW8Jp3u7orrLtDwfFNRQbActwoNgceLR4eeMMCS/OQ9kRlip1tvpLhX7EFjD+/+jH5yP9pojQoOSTot51tIzEfmLD6FOffjZeeqWIsPZZP4bpr9EUkrMgQOJJ+mD2yXk5+Ps8CIGso+EHaynmORhMQmCz87mZqzMhNGqVKJ4ND5BuNLvbGnxmyOcsCIHGiyqCrlQmgf6OOnrz9y+BOydCoA9RnbPrW3WO6NHgoDX+cG0sntDQ41HcPatRgCyt8EvH/WCPpWhCMJZR2xfM9s6ksmZUQ/3tDP4ShEDi1Wn25JDFBGMc/QbO4iOzyYUSMhjGTWD3iLlkbiO0OP70A0N4BRLyVn3TBB4vgEDXUW1sX7+7e10cIYG4CRySN9sCxjphWLPvvfNBRREy2o8KaNU9pT0H+jPK8NaxAn02hMnaUL9+qvUAYxLWRvP1XW5cIYSGO48S22iebh6B3FbDZ7XW72g4CiAEFrfiweydBQ76sTeun5yNuROCsYiaQPP1bQuzfTPpRje39vsHZ0DISFSb0PB/pP2m0+j+xom1MV9CbmGiAmq9pyqlZMSr9PzTvPE8CYG4UeLMV/aJ7hC9jNv/U7zxHAkZi5vA0eJzqxhYLeqO2NO3I8qNMBl5sT7iXW5HtnHj3vTGlREab0wkbJrAua5iXsMz5mGB8PvsjaBXigi/vaHoN9daf70V8kT9FccYvBHwuyLCUqXOX9+PCmfzzNQVtDsXqStoOazUFRy98FNXrJ14dsPse7YKkaOW7xlTr0tXmsizkq2qh/2/TuoK+gdO6spvfqUlG0/vF79SOWadvStFhDU4sgKD4fpkqykN9naRsCffQQWhPEjB0MtOrVwx+kgoN70E2/7K4aENnip1Lf714iCiWkL3dEJwF0wZIZncHPQ1C8tDVp9TVYRAL0YeO+CPFUMIjNFKi1wpIrz5xzTvb/509yIWUkph8efm3tf+3CkiDDXf74AXkodQU7tyv84bOPPQfG0xloZ3Z3j7aataULtCwkOd7oIsDQCP075XRDjX+hOtfsCaFtRawEAbTjVVryY2uoQMhrkQnpyH7GlMSVPVm9A6YKnY/6TC2kNMkLoW/9hgQnFeW17jNIV5bV+UsMzDr0/438/D/z5hWUq/PmGReVjLhfAdPo1iQhg859K3ON3z7k6ZUkLiHHSBi8lDMm9TdYQ69QzL9+jeLmIRhEApDTSPeqoIZ4HJE21rwe0exAJKKSx4gkyeoIu+IkIINxZzrvd1EQvJQ1dsPDi6VlYPmW5xiv3DicWMtZELXqiYoY5wrbUCbXVGY223plXVBkTdmHfHYdRp7H1YIYTGsA2UW1N1rcWMAtDuvmcVVEoH3K7Tn7o6QvHcsxrVF/+U4zTnSFj2nr4+YZmHJeH5E55DKd2mzT8PpUdlQAiT7f5F3nnIXpMwGRBC19zuYeSch+C2lpsfWTkhEG+u9Wh67W6ueQiEzrSGF6dAOeEv2+c9a9//LZfUPPOQPdt4aItl/wrDqSYEQ7zSa81Sa8xzLaXsFmMy47XW6ushxbfMtnb1zNfSkLGJexpmVUpBb5nO9jPztTSkozm2H19TTzhrrbx60MzQ0rxFCMGULlqDzPJwVWO6sbgu0JZeLwwdIDPCcEHG1qqMnPMwlYKv6JeWnvfXJzyvPIQMCA/l4YEUZEsI4Rh4LnkIqwII4XpE1BMeyENS3ZuLWRICI5faAA+Pyz4PgRm69kz3TAxlSAjL6bKtOcvpGDInhPF02dG+L6f1XAlvw/fngpViwj2lFKIdl6z1bjIyLKVMvPbbgFxKKWCXZtTcnZ/N1NLQuWZqryQXS2NM+bP2bX6bqaUBezQLWsoJ97YWLLBm7X07NCsjZLt749F136PevEkJFe+uuUmQ8N21gXxP9O6afL8glK+E766BdJsnCD0e4ZBS72m9JxVXiggrh9TAf3DLDtuRrjq4iqCdCojMrdQVtFRW6gq+Dm6nrrR2wmzrPE8RLFUqC1WPSozvhZ9Gx0OerlbA/xmJ94CPxqlq9/LT3gP2Zo6qnaK9xtLL+T3g3cY2adnC9pAYXsWuEQWnlIFBiO94hkEL7wHLhIuXuxdb+3H3v13n8b2At/+7+2GaL3d3+lkRNtfh9oCdA73x9yh8edJen1ceNg03wJPYFByxA7RnoofKih+nSRGC0eLu8eWW/38a71YoWPOYbAJnRshW2nRgbaWnNjsJcZAORebWbGpfnlsest+3hMFT6pwkVv9xbBY+vrDYOnGBTXRGHn6fGyHgMApIYynADNq2uNFP3wxbZ0XxUJe8I5LaTDiM6gzGS9OE2w9fvLy8+No/L3epkgqwNdXy5+6lqn17uXvcjfnMCXU92gO6I6/kAHatrZg0twO34baXo4fdCM6e0OjiG/NrqZTCbHbb1348zGbJCzggtjrt7POFzp4Qmha3+vKmKDD1TVMzTbsvBaOVaMDn6xGyS60/M1OjM2SFnQFrJl0D1650q6197zmcPyG2H+4wnWjsiLzKA1CwnhJGO3vuz5MQ2BGJM1Atd883hODX6cDfzVe7lYrP2A0VBxaEe7+Kn6CKcHl5RGMcrvXrx4IkqlvT9bM/PS3wGMeZRuNjQf5RRGge1wlBkrDRf6cFfjtmRYSlSpUqVarU24panreaIP+ylb5n7y3pyNKx7WsDxZ/Sd1JIde3h5Go8Ht/c83/W6/X48c+wbe8GsjsufUr+5IEvb24u+R14b8PafOHM+IX7myiyy5thxd+k89ts/HjDNU70hEuC148Y1TKJxIriWCo67HHS6wm/k3T7T9MVDqeT5fbMXYMRgNuE/N+e8D71ab8nDjWLz0TSnEGvaaA/6k6f+gMDB+1n8Xk77cFKeKnrHtcAKA9HOWG9J1xc8rD5Kax/ceCD/HxWd5xlwPsDcCU+ms6AAtvswB4nDlcmE3nn4qoRdQ80xwUgbjKLghPWAGFyq2N8PdXdbNo14XfRKGi7a+hUnJlgiiEAQz68MgC1Z67anJBNNzg66AxSm6VNqAvhXHysFg8UEmo+/453BDeR8fQmyQs4B5BOHDVNCDWTZ174RSBWz9M4FKpHVO1HFyYKCZP045oJkBHtxXOHJ/RBqvoSoVbB/NxsdSgIB8m9M5Ygpgg1u0ejcC4O7gCVNmir0xcVZJtHpQmxjHDEpKCOvDYvyKnjiAVhdN6MhZuHNONvzNsUoWZjqWXh75Um1OyVF1a1n5d4mDS4ySPvUzn6adk802RCUV/YevPnsmbjxnWGZE2RkMYGCXPN3Xx1lSYUWLCw448SoeavQqbmjYUjrWy2Ket3XraEYtyCxg2g5fKe/pIXtkUS4h2EGm6NGua3RJhq7Zr32ghHP8jGGLx4DU2hdgjFTpFGXLUqHq8gbVxGX90EkAlxJRDrbb7aIcTRmND2SISDnoTICbW5QIx39Jx7Stea7BJWMVGDKA0PaGJ8LKbJ0ecy4ZyIYcNYO4Q+w2qNNS4hNOFqi1Cr4zONyNo0PFU7XwrtElqiBQjTEBBR/3qyOZEJBfsgSe8OoYZlnmH+J4Rzut4m1FbC2oS2p+Gp2vlSaJcQTb5Ow3rfp2JzdNw4g2x804SQ11lIeQi7hP9imcfASEgq3yuV39yQyYT4wlNY+1n4WzW8lqZQu4Ro8mNCd2bGTJtqErUWvn/xVDP027lsNnYJn1m0mk+YVS7KXR2Z8GdYZMVqaNrPhdBOCNt0GHYHZrKvgoSgu4wasKqmOwFv5CF1rFYw6hopwugPMUIsRlIzJ7SwmdbFY+uku+pyrbDForEzLPLwVzDHVbaLtIe8S9jdrYcWme0h5O4hWptqDoQXWOlxD2Xu7zxMQy1BsuaiHnJjMMLl7rNUJu4SClva0tKthSv9Lu44isFcc18Dan72hNgAhL54Y9P02jwrIIbZWBpsxtIe1g5hFX+ua/wkEX5vSD8L2RRZe4F1dmWqJtS3CXFqNzSVK7rxpKb84ST65TeEJnrWrrwEbYfwFT3zIX4ShFVtR0Z38xCMWDemqgm3PG8t0OPGL/AS91TY+k6SkPAnaOHNUjnd6ltg4w6xUy0IK9J3mi/QJEKtjat2YEWzJVwztHn46YYm/qHoCEYsUosvPLyknO4Q4gQpCWMP20P5yV3R1suEoobwrlSmhPgMYxlCJYVUM3HJEAkLpOzTYB4ZSa9vizAweBWIRkB2CNeiltuGbHa0OnaIMyBM+tS4yt4QhlTr0J9SOJzyjXr6sl86RIfS3diKh5R7Jwp8LUruNmGfCnfVShOaPUM1oUXj1wwwhb8pngEbTqs9UHn7fh/D1USNEoRRWrGPG04Ai78Wcs+rwQBIM/bpkNBIDj4YUiaaiRGhqVNz7C5TSWja/hCLBVsGvm1VJy5hVJzja/qtMWOPlh23VXYVOzjwwMP5czTqj3b4nYOLLUjfsnkY2xGbvN+OLNsP5teEEdaPxkntFj4I3ErL5mq1BwYaLtO2+GMuW/IYJu+PKSQc1MKjgAglNf7Ro81xQzzNAbF8GCDqM1UgPqJNj27hmR1m45TfTT3mtu6gRpJAxKPu+jUugE8QnxXEcD0K8yghno/2S1xrygW1aihsLSqThoOqDFHz9kU8hhtMKni9MYn6MdZk6GypMwnLn93pYMihX53Mw29EZB3nwkqakXYYX6LGcMjtjD0chk9PDUQ7t+UMcKlSpUqVKlWqVKlSpUqVeof+D1Gy0ZipMN4gAAAAAElFTkSuQmCC"
+                    alt="Italian Trulli">
+            </div>
+
+        </div>
+        <div class="main-area">
+            <div class="header">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search for classes here">
+                </div>
+                <div class="inbox-calendar">
+                    <input type="checkbox" class="inbox-calendar-checkbox">
+                    <div class="toggle-page">
+                        <span>Classes</span>
+                    </div>
+                    <div class="layer"></div>
+                </div>
+                <div class="color-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 464.7 464.7">
+                        <path
+                            d="M446.6 18.1a62 62 0 00-87.6 0L342.3 35a23 23 0 10-32.5 32.5l5.4 5.4-180.6 180.6L71.9 316c-5 5-8 11.6-8.2 18.7l-.2 3.3-2.5 56.7a9.4 9.4 0 009.4 9.8h.4l30-1.3 18.4-.8 8.3-.4a37 37 0 0024.5-10.8l240.9-240.9 4.5 4.6a23 23 0 0032.5 0c9-9 9-23.6 0-32.6l16.7-16.7a62 62 0 000-87.6zm-174 209.2l-84.6 16 138-138 34.4 34.3-87.8 87.7zM64.5 423.9C28.9 423.9 0 433 0 444.3c0 11.3 28.9 20.4 64.5 20.4s64.5-9.1 64.5-20.4C129 433 100 424 64.5 424z" />
+                    </svg>
+                    <input type="color" value="#4d76fd" class="colorpicker" id="colorpicker"></input>
+                </div>
+            </div>
+            <div class="main-container">
+                <div class="inbox-container">
+                    <div class="inbox">
+
+                        <div class="msg msg-department anim-y">
+                            Classes Search
+                        </div>
+
+                        <div class="msg-selected-bg-anim-y">
+
+
+                            <div id="search-controls">
+
+
+                                <div id="result-sort">
+                                    Sort By
+                                    <select>
+                                        <option value="None">Class</option>
+                                        <option value="Acme">Teacher</option>
+                                        <option value="Bacme">Time</option>
+                                    </select>
+
+                                </div>
+                                <div id="filter-parts">
+                                    Search By
+                                    <select>
+                                        <option value="None">Teacher</option>
+                                        <option value="Acme">Sasa Zorc</option>
+                                        <option value="Bacme">Alex Cowan</option>
+                                        <option value="Cacme">Dan Murphy</option>
+                                        <option value="Dacme">John Glynn</option>
+                                    </select>
+                                    <select>
+                                        <option value="None">Time</option>
+                                        <option value="Acme">Early Week</option>
+                                        <option value="Bacme">Late Weekt</option>
+                                        <option value="Cacme">Wednesday Only</option>
+
+                                    </select>
+                                    <select>
+                                        <option value="None">Quarter</option>
+                                        <option value="Acme">1</option>
+                                        <option value="Bacme">2</option>
+                                        <option value="Cacme">3</option>
+                                        <option value="Dacme">4</option>
+                                    </select>
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <label for="mail1"></label>
+                            <div class="msg-content">
+                                <div class="msg-title"></div>
+                                <div class="msg-date"></div>
+                            </div>
+
+
+                        </div>
+                        <div class="msg anim-y">
+
+                            <label for="mail2"></label>
+                            <div class="msg-content">
+
+                            </div>
+                            <div class="tab">
+                                <button class="tablinks" onmouseover="openCity(event, 'All Classes')">All
+                                    Classes</button>
+                                <button class="tablinks" onmouseover="openCity(event, 'London')">Enrolled</button>
+                                <button class="tablinks" onmouseover="openCity(event, 'Paris')"><a
+                                        href="https://jsfiddle.net/caseymims11/ajLsw487/44/show">Waitlisted</a></button>
+                                <button class="tablinks" onmouseover="openCity(event, 'Tokyo')">Search Results</button>
+                            </div>
+
+                            <div id="London" class="tabcontent">
+                                <h3>Enrolled</h3>
+                                <p>
+                                <table>
+                                    <tr>
+                                        <th>Class</th>
+                                        <th>Teacher</th>
+                                        <th>Time</th>
+                                        <th>Drop</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Software Development</td>
+                                        <td>A. Cowan</td>
+                                        <td>EW 4:30-5:55</td>
+                                        <td>Drop</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Accounting</td>
+                                        <td>L. Lynch</td>
+                                        <td>EW 10-11:25</td>
+                                        <td>Drop</td>
+                                    </tr>
+                                    <tr>
+                                        <td>DA</td>
+                                        <td>Sasa Zorc</td>
+                                        <td>LW 10-11:25</td>
+                                        <td>Drop</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sales</td>
+                                        <td>J.Jordan</td>
+                                        <td>EW 11:45-1:10</td>
+                                        <td>Drop</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Marketing</td>
+                                        <td>K.Whittler</td>
+                                        <td>EW 2:45-4:10</td>
+                                        <td>Drop</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Coaching</td>
+                                        <td>S.Zorc</td>
+                                        <td>Wednesday 4:30-5:55</td>
+                                        <td>Drop</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div id="Paris" class="tabcontent">
+
+                                <h3> Waitlisted</h3>
+
+                                <table>
+                                    <tr>
+                                        <th>Class</th>
+                                        <th>Teacher</th>
+                                        <th>Time</th>
+                                        <th>Drop</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Seminar</td>
+                                        <td>A. Cowan</td>
+                                        <td>LW 11:45-1:10</td>
+                                        <td>Drop</td>
+                                    </tr>
+
+                                </table>
+                            </div>
+
+                            <div id="Tokyo" class="tabcontent">
+                                <h3>Search Results</h3>
+                                <p>
+                                <table>
+                                    <tr>
+                                        <th>Class</th>
+                                        <th>Teacher</th>
+                                        <th>Time</th>
+                                        <th>Add/Drop</th>
+                                    </tr>
+
+                                </table>.
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="msg selected-bg anim-y">
+
+                            <div class="msg-title">Progress Towards Graduation</div>
+                            <br>
+                            <div class="msg-content">
+
+                                <div class="msg-date"></div>
+
+                            </div>
+
+                        </div>
+                        <div class="msg anim-y">
+                            <input type="checkbox" name="msg" id="mail7" class="mail-choice">
+                            <label for="mail7"></label>
+                            <label for="mail5"></label>
+
+                            <div class="msg-content">
+                                <div class="msg-title">Finance Designation</div>
+                                <div class="msg-date">
+                                    6/8 Classes</div>
+
+                            </div>
+
+                        </div>
+                        <div class="msg anim-y">
+
+                            <input type="checkbox" name="msg" id="mail7" class="mail-choice">
+                            <label for="mail7"></label>
+                            <div class="msg-content">
+                                <div class="msg-title">STEM Designation</div>
+                                <div class="msg-date">8/12 Classes</div>
+                            </div>
+
+                        </div>
+                        <div class="msg anim-y">
+                            <input type="checkbox" name="msg" id="mail7" class="mail-choice">
+                            <label for="mail7"></label>
+                            <div class="msg-content">
+                                <div class="msg-title">SY Leadership Requriement</div>
+                                <div class="msg-date">0/1 Classes</div>
+                            </div>
+
+                        </div>
+                        <div class="msg anim-y">
+                            <input type="checkbox" name="msg" id="mail8" class="mail-choice">
+                            <label for="mail8"></label>
+                            <div class="msg-content">
+                                <div class="msg-title">Business Analytics Concentration</div>
+                                <div class="msg-date">6/9 Classes</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="add-task">
+
+                    </div>
+                </div>
+                <div class="mail-detail">
+                    <div class="mail-detail-header">
+                        <div class="mail-detail-profile">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQE3FtiLvQV9fw/profile-displayphoto-shrink_100_100/0/1618966869752?e=1638403200&v=beta&t=9f3Faoapji5q2lcCbm6OYJ_spRb0lITTGuQ2wrXKZwU"
+                                alt="" class="members inbox-detail" />
+                            <div class="mail-detail-name">Finance Francine</div>
+                        </div>
+
+                    </div>
+                    <div class="mail-contents">
+                        <div class="mail-contents-subject">
+                            <input type="checkbox" name="msg" id="mail20" class="mail-choice" checked>
+                            <label for="mail20"></label>
+                            <div class="mail-contents-title">February 2022</div>
+                        </div>
+                        <div class="mail">
+                            <div class="mail-time">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-clock">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <path d="M12 6v6l4 2" />
+                                </svg>
+                                12 February, 2022
+                            </div>
+                            <!Calendar>
+                        </div>
+
+                        <div class="container1">
+                            <div class="timetable-img text-center">
+                                <img src="img/content/timetable.png" alt="">
+                            </div>
+                            <div class="table-adaptive">
+                                <table class="table table-bordered text-center">
+                                    <thead>
+                                        <tr class="bg-light-gray">
+                                            <th class="text-uppercase">Time
+                                            </th>
+                                            <th class="text-uppercase">Monday</th>
+                                            <th class="text-uppercase">Tuesday</th>
+                                            <th class="text-uppercase">Wednesday</th>
+                                            <th class="text-uppercase">Thursday</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="align-middle">10:00am</td>
+                                            <td>
+                                                <span
+                                                    class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">ACC</span>
+                                                <div class="margin-10px-top font-size14">10:00:11:25</div>
+                                                <div class="font-size13 text-light-gray">L.Lynch</div>
+                                            </td>
+                                            <td>
+                                                <span
+                                                    class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">ACC</span>
+                                                <div class="margin-10px-top font-size14">10:00-11:25</div>
+                                                <div class="font-size13 text-light-gray">L.Lynch</div>
+                                            </td>
+
+                                            <td>
+                                                <span
+                                                    class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">DA</span>
+                                                <div class="margin-10px-top font-size14">10:00-11:25</div>
+                                                <div class="font-size13 text-light-gray">Sasa Zorc</div>
+                                            </td>
+                                            <td>
+                                                <span
+                                                    class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">DA</span>
+                                                <div class="margin-10px-top font-size14">10:00-11:25</div>
+                                                <div class="font-size13 text-light-gray">Sasa Zorc</div>
+                                            </td>
+
+
+                                        <tr>
+                                            <td class="align-middle">11:45am</td>
+
+
+                                            <td>
+                                                <span
+                                                    class="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Sales</span>
+                                                <div class="margin-10px-top font-size14">11:45-1:10</div>
+                                                <div class="font-size13 text-light-gray">J.Jordan</div>
+                                            </td>
+                                            <td>
+                                                <span
+                                                    class="bg-green padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Sales</span>
+                                                <div class="margin-10px-top font-size14">11:45-1:10</div>
+                                                <div class="font-size13 text-light-gray">J.Jordan</div>
+                                            <td class="bg-light-gray">
+
+                                            </td>
+                                            <td class="bg-light-gray">
+
+                                            </td>
+
+
+                                        <tr>
+                                            <td class="align-middle">2:45pm</td>
+
+
+                                            <td>
+                                                <span
+                                                    class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Marketing</span>
+                                                <div class="margin-10px-top font-size14">2:45-4:10</div>
+                                                <div class="font-size13 text-light-gray">K.Whittler</div>
+                                            </td>
+                                            <td>
+                                                <span
+                                                    class="bg-pink padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Marketing</span>
+                                                <div class="margin-10px-top font-size14">2:45-4:10</div>
+                                                <div class="font-size13 text-light-gray">K.Whittler</div>
+                                            </td>
+                                            <td class="bg-white">
+
+                                            </td>
+
+                                            <td class="bg-white">
+
+
+                                        </tr>
+
+                                        <tr>
+                                            <td class="align-middle">4:30pm</td>
+                                            <td>
+                                                <span
+                                                    class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Software</span>
+                                                <div class="margin-10px-top font-size14">4:30-5:55</div>
+                                                <div class="font-size13 text-light-gray">A.Cowan</div>
+                                            </td>
+                                            <td>
+                                                <span
+                                                    class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Software</span>
+                                                <div class="margin-10px-top font-size14">4:30-5:55</div>
+                                                <div class="font-size13 text-light-gray">A.Cowan</div>
+                                            </td>
+
+                                            <td>
+                                                <span
+                                                    class="bg-orange padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Coaching</span>
+                                                <div class="margin-10px-top font-size14">4:30-5:55</div>
+                                                <div class="font-size13 text-light-gray">Sasa Zorc</div>
+                                            </td>
+                                            <td class="bg-grey">
+
+                                            </td>
+
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="mail-assign">
+                            <div class="assignee">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="mail-checklist">
+                        <input type="checkbox" name="msg" id="mail30" class="mail-choice" checked>
+
+
+                    </div>
+                    <div class="mail-doc">
+                        <div class="mail-doc-wrapper">
+
+                            <div class="mail-doc-detail">
+
+                            </div>
+                        </div>
+                        <div class="mail-doc-icons">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="send">
+
+            <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" /></svg>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    </div>
+    </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    <script src="registrar_dashboard.js"></script>
+</body>
+
+</html>
