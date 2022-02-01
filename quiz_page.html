@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Quiz Page</title>
+  <link rel="stylesheet" href="./quiz_page.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat');
+</style>
+
+<div class="container">
+  <header class="header">
+    <h1 id="title" class="header__title">Class Recommendation Proxy</h1>
+    <p id="description" class="header__description">
+      We would love to hear your thoughts on how we can improve your experience.
+    </p>
+    <img src="https://securelb.imodules.com/s/1535/images/gid9/editor/site_content/events_reunion/darden_logo_blue_orange_high_res.jpg" alt="" aria-hidden="true" class="illustration" />
+  </header>
+  <main class="main">
+    <form action="#" method="GET" id="survey-form" class="survey" novalidate>
+      <div class="progressbar" tabindex="0" role="progressbar" aria-valuemin="1" aria-valuemax="10
+                                                  " aria-valuenow="1" aria-valuetext="Question 1 of 10: How long have you been using our product?">
+        <span class="progressbar__step active" aria-hidden="true"></span>
+        <span class="progressbar__step" aria-hidden="true"></span>
+        <span class="progressbar__step" aria-hidden="true"></span>
+        <span class="progressbar__step" aria-hidden="true"></span>
+        <span class="progressbar__step" aria-hidden="true"></span>
+         <span class="progressbar__step" aria-hidden="true"></span>
+         <span class="progressbar__step" aria-hidden="true"></span>
+         <span class="progressbar__step" aria-hidden="true"></span>
+         <span class="progressbar__step" aria-hidden="true"></span>
+         <span class="progressbar__step" aria-hidden="true"></span>
+        
+      </div>
+
+      <section class="survey__panel survey__panel--current" aria-hidden="false" data-index="1" data-panel="firstPanel" data-requirement="option">
+        <h2 class="survey__panel__question">
+          <span class="visuallyhidden">Question 1 of 10 </span>What was your favorite subject in FY?
+        </h2>
+        <div class="survey__panel__period">
+          <div class="form-group">
+            <input id="never" type="radio" name="question_1" value="never" />
+            <label for="never">DA</label>
+          </div>
+          <div class="form-group">
+            <input id="lessthenoneyear" type="radio" name="question_1" value="lessthenoneyear" />
+            <label for="lessthenoneyear">Fin/ Acc</label>
+          </div>
+          <div class="form-group">
+            <input id="onetotwoyears" type="radio" name="question_1" value="onetotwoyears" />
+            <label for="onetotwoyears">Econ</label>
+          </div>
+          <div class="form-group">
+            <input id="morethentwoyears" type="radio" name="question_1" value="morethentwoyears" />
+            <label for="morethentwoyears"><span class="visuallyhidden">more then</span><span aria-hidden="true">Marketing</label>
+          </div>
+            <div class="form-group">
+            <input id="morethentwoyears" type="radio" name="question_1" value="morethentwoyears" />
+            <label for="morethentwoyears"><span class="visuallyhidden">more then</span><span aria-hidden="true">Strategy</label>
+          </div>
+              <div class="form-group">
+            <input id="morethentwoyears" type="radio" name="question_1" value="morethentwoyears" />
+            <label for="morethentwoyears"><span class="visuallyhidden">more then</span><span aria-hidden="true">Ethics</label>
+          </div>
+        </div>
+        <p class="error-message"></p>
+      </section>
+
+      <section class="survey__panel" aria-hidden="true" data-index="2" data-panel="secondPanel" data-requirement="option">
+        <h2 class="survey__panel__question">
+          <span class="visuallyhidden">Question 2 of 5 </span>How do you agree with the following statement: I like working with numbers?
+        </h2>
+        <div class="survey__panel__satisfaction">
+          <div class="form-group">
+            <input id="notsatified" type="radio" class="radiobox" name="question_2" value="Not Satisfied" />
+            <label for="notsatified">Strongly Agree</label>
+          </div>
+          <div class="form-group">
+            <input id="quitesatisfied" type="radio" class="radiobox" name="question_2" value="Quite Satisfied" />
+            <label for="quitesatisfied">Agree</label>
+          </div>
+          <div class="form-group">
+            <input id="satisfied" type="radio" class="radiobox" name="question_2" value="Satisfied" />
+            <label for="satisfied">Neutral</label>
+          </div>
+          <div class="form-group">
+            <input id="completelysatisfied" type="radio" class="radiobox" name="question_2" value="Completely Satisfied" />
+            <label for="completelysatisfied">Somewhat Disagree</label>
+          </div>
+           <div class="form-group">
+            <input id="completelysatisfied" type="radio" class="radiobox" name="question_2" value="Completely Satisfied" />
+            <label for="completelysatisfied">Strongly Disagree</label>
+          </div>
+        </div>
+        <p class="error-message"></p>
+      </section>
+
+      <section class="survey__panel" aria-hidden="true" data-index="3" data-panel="thirdPanel" data-requirement="checkbox">
+        <h2 class="survey__panel__question">
+          <span class="visuallyhidden">Question 3 of 5 </span>Select all that apply: I am interested in the following subjects
+        </h2>
+        <div class="survey__panel__hearabout">
+          <div class="form-group">
+            <input type="checkbox" class="checkbox" id="searchengine" name="question_3" value="Search Engine" />
+            <label for="searchengine">Sustainability</label>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" class="checkbox" id="friend" name="question_3" value="A friend of mine" />
+            <label for="friend">Quantitaive Subjects</label>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" class="checkbox" id="socialmedia" name="question_3" value="Social Media" />
+            <label for="socialmedia">Venture Capital</label>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" class="checkbox" id="other" name="question_3" value="Other" />
+            <label for="other">Product Management</label>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" class="checkbox" id="other" name="question_3" value="NP" />
+            <label for="non profit">Non For Profit Work</label>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" class="checkbox" id="other" name="question_3" value="Other" />
+            <label for="other">Banking</label>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" class="checkbox" id="other" name="question_3" value="Other" />
+            <label for="other">Sales & Trading</label>
+          </div>
+          
+        </div>
+        <p class="error-message"></p>
+      </section>
+
+      <section class="survey__panel" aria-hidden="true" data-index="4" data-panel="fourthPanel" data-requirement="option">
+        <h2 class="survey__panel__question">
+          <span class="visuallyhidden">Question 4 of 5 </span> Question 4
+        </h2>
+        <div class="survey__panel__recommendation">
+          <div class="form-group">
+            <input type="radio" class="radiobox" name="question_4" id="norecomment" value="no" />
+            <label for="norecomment">No</label>
+          </div>
+          <div class="form-group">
+            <input type="radio" class="radiobox" name="question_4" id="mayberecommend" value="maybe" />
+            <label for="mayberecommend">Maybe</label>
+          </div>
+          <div class="form-group">
+            <input type="radio" class="radiobox" name="question_4" id="yesrecommend" value="yes" />
+            <label for="yesrecommend">Yes</label>
+          </div>
+  
+        </div>
+        <p class="error-message"></p>
+      </section>
+<section class="survey__panel" aria-hidden="true" data-index="5" data-panel="fifthPanel" data-requirement="option">
+        <h2 class="survey__panel__question">
+          <span class="visuallyhidden">Question 5 of 10 </span> Question 5
+        </h2>
+        <div class="survey__panel__recommendation">
+          <div class="form-group">
+            <input type="radio" class="radiobox" name="question_5" id="norecomment" value="no" />
+            <label for="norecomment">No</label>
+          </div>
+          <div class="form-group">
+            <input type="radio" class="radiobox" name="question_5" id="mayberecommend" value="maybe" />
+            <label for="mayberecommend">Maybe</label>
+          </div>
+          <div class="form-group">
+            <input type="radio" class="radiobox" name="question_5" id="yesrecommend" value="yes" />
+            <label for="yesrecommend">Yes</label>
+          </div>
+  
+        </div>
+        <p class="error-message"></p>
+      </section>
+            
+            <section class="survey__panel" aria-hidden="true" data-index="6" data-panel="SixthPanel" data-requirement="option">
+        <h2 class="survey__panel__question">
+          <span class="visuallyhidden">Question 6 of 10 </span> Question 6
+        </h2>
+        <div class="survey__panel__recommendation">
+          <div class="form-group">
+            <input type="radio" class="radiobox" name="question_6" id="norecomment" value="no" />
+            <label for="norecomment">No</label>
+          </div>
+          <div class="form-group">
+            <input type="radio" class="radiobox" name="question_6" id="mayberecommend" value="maybe" />
+            <label for="mayberecommend">Maybe</label>
+          </div>
+          <div class="form-group">
+            <input type="radio" class="radiobox" name="question_4" id="yesrecommend" value="yes" />
+            <label for="yesrecommend">Yes</label>
+          </div>
+  
+        </div>
+        <p class="error-message"></p>
+      </section>
+            
+            
+        
+    
+      <div class="form-buttons">
+        <button class="button" type="button" name="prev" disabled="disabled" aria-label="Previous" aria-hidden="true">
+          Prev
+        </button>
+        <button class="button" type="button" name="next" aria-label="Next" aria-hidden="false">Next</button>
+        <button class="button" type="submit" id="submit" name="submit" disabled="disabled" aria-hidden="true">
+          Submit
+        </button>
+      </div>
+    </form>
+  </main>
+</div>
+
+<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+<!-- partial -->
+  <script  src="./quiz_page.js"></script>
+
+</body>
+</html>

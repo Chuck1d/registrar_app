@@ -1,0 +1,66 @@
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat');
+</style>
+<link rel="stylesheet" href="course_list.css">
+
+<html>
+<header class="header">
+  <nav class="navbar">
+    <a href="#" class="nav-logo"> Menu </a>
+    <ul class="nav-menu">
+
+      <li class="nav-item">
+        <a href="#" class="nav-link"> All Classes</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Your Classes/Waitlists</a>
+
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Your Calendar </a>
+
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Help Video</a>
+      </li>
+    </ul>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </nav>
+</header>
+
+<body>
+
+  <section class="hero">
+    <div class="background-image" style="background-image: url(https://blogs.darden.virginia.edu/career-development/files/2019/01/19115007740_dab7f8e9c6_k-3.jpg;"></div>
+    <div class="hero-content-area">
+      <h1>Darden Registrar</h1>
+
+    </div>
+  </section>
+
+  <section>
+    <li class="button-item">
+      <a href="#" class="button">Get Personalized Class Recommendations </a>
+    </li>
+    <h3> View all classes below </h3>
+
+    <ul class="button-menu">
+      </li>
+      <li class="button-item">
+        <a href="#" class="button">Export to Excel </a>
+      </li>
+
+      <li class="button-item">
+        <a href="#" class="button">Export to PDF </a>
+      </li>
+    </ul>
+    <table class=registrar id="parts-content" />
+    <script src="course_list.js"></script>
